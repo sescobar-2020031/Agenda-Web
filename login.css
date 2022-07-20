@@ -1,0 +1,51 @@
+:root {
+    --dark: #16191c;
+    --dark-x : #1e2126;
+    --light: #ffffff
+}
+body{
+    font-family: 'Spartan', sans-serif, Arial;
+    font-weight: 300;
+    color: var(--light);
+}
+.bg-dark{
+    background-color: var(--dark)!important;
+}
+#exampleInputEmail1{
+    color: #ffffff;
+}
+#exampleInputEmail1:focus-visible{
+    color: #1e2126;
+}
+#contraseñahelp{
+    color: #ffffff;
+}
+#contraseñahelp:focus-visible{
+    color: #1e2126;
+}
+.bg-dark-x{
+    background-color: var(--dark-x);
+}
+#logo{
+    width: 4rem;
+}
+.form-control,.btn{
+    min-height: 3.125rem;
+    line-height: initial;
+}
+
+.img-1{
+    background-image: url('Images/Imagen\ carrusel\ 1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.img-2{
+    background-image: url('Images/Imagen\ carrusel\ 2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.img-3{
+    background-image: url('Images/Imagen\ carrusel\ 3.jpg');
+    background-size: cover;
+    background-position: center;
+}
